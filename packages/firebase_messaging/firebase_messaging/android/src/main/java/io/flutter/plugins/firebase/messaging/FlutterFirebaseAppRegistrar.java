@@ -16,6 +16,6 @@ public class FlutterFirebaseAppRegistrar implements ComponentRegistrar {
   @Override
   public List<Component<?>> getComponents() {
     return Collections.<Component<?>>singletonList(
-        LibraryVersionComponent.create(BuildConfig.LIBRARY_NAME, BuildConfig.LIBRARY_VERSION));
+        LibraryVersionComponent.create("\"firebase_messaging\"", "\"15.2.1\""));
   }
 }
