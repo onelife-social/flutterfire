@@ -16,6 +16,6 @@ public class FlutterFirebaseFirestoreRegistrar implements ComponentRegistrar {
   @Override
   public List<Component<?>> getComponents() {
     return Collections.singletonList(
-        LibraryVersionComponent.create("\"cloud_firestore\"", "\"5.6.2\""));
+        LibraryVersionComponent.create("\"cloud_firestore\"", "\"5.6.3\""));
   }
 }
